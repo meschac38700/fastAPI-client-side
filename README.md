@@ -2,8 +2,7 @@
 
 ## Usage
 
-Backend [Test-FastAPI]: https://github.com/meschac38700/Test-FastAPI
-After starting backend side app then:
+After starting backend side app [Test-FastAPI](https://github.com/meschac38700/Test-FastAPI) then:
 
 with app with a server such as:
 
