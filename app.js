@@ -29,11 +29,11 @@ const createAvatarDOM = (user) => {
  * @param {Function} callback event action
  * @param {Number} delay wait time after user stops writing before executing callback
  */
-const addSearchListener = (input, callback, delay = 1000) => {
+const addSearchListener = (input, callback, delay = 1200) => {
     let timer = null;
     let once = false;
     input.addEventListener("keyup", (e) => {
-        if (/[a-z0-9\s]|backspace/.test(e.key.toLowerCase())) {
+        if ((/[a-z0-9\s]/.test(e.key.toLowerCase()) && e.key.length == 1) || e.key.toLowerCase() == "backspace") {
             once = true;
             timer = window.setTimeout(() => {
                 if (once) {
