@@ -1,38 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css">
-		<title>Change vidéo Owner</title>
-	</head>
-	<body>
-		<main>
-			<div class="container">
-				<div class="content">
-					<form class="form" autocomplete="off">
-            <h1 class="title">Test FastAPI Repository {{<a href="https://github.com/meschac38700/Test-FastAPI" class="api"></a>}}</https:></h1>
-						
-						<div class="form-wrapper">
-							<label for="old_owner" class="form-wrapper__label">Old Owner</label>
-							<input type="text" id="old_owner" class="form-wrapper__control" placeholder="New owner"/>
-              <div class="old_owner suggestions"></div>
-						</div>
-            <div class="form-wrapper">
-							<label for="new_owner" class="form-wrapper__label">New Owner</label>
-							<input type="text" id="new_owner" class="form-wrapper__control" placeholder="Old owner"/>
-              <div class="new_owner suggestions"></div>
-						</div>
-						<div class="form-wrapper select-videos">
-							<label class="form-wrapper__label">Users avatar</label>
-							<div type="text" class="form-wrapper__control select-videos">
-              </div>
-						</div>
-					</form>
-				</div>
-			</div>
-      <script src="app.js"></script>
-		</main>
-	</body>
+    <title>Change vidéo Owner</title>
+</head>
+
+<body>
+    <main>
+        <div class="container">
+            <div class="content">
+                <form class="form" autocomplete="off">
+                    <h1 class="title">Test FastAPI Repository {<a target="_blank" rel="noopener" href="https://github.com/meschac38700/Test-FastAPI" class="api">Backend</a>}</h1>
+
+                    <div class="form-wrapper">
+                        <label for="old_owner" class="form-wrapper__label">Old Owner</label>
+                        <input type="text" id="old_owner" class="form-wrapper__control" placeholder="New owner" />
+                        <div class="old_owner suggestions"></div>
+                    </div>
+                    <div class="form-wrapper">
+                        <label for="new_owner" class="form-wrapper__label">New Owner</label>
+                        <input type="text" id="new_owner" class="form-wrapper__control" placeholder="Old owner" />
+                        <div class="new_owner suggestions"></div>
+                    </div>
+                    <div class="form-wrapper select-videos">
+                        <label class="form-wrapper__label">Users avatar</label>
+                        <div type="text" class="form-wrapper__control select-videos">
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <script src="app.js"></script>
+    </main>
+</body>
+
 </html>
