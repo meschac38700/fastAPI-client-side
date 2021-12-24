@@ -92,7 +92,7 @@ const getUsers = (search, attribute = 'first_nameORlast_name') => {
                 // clear previous suggestions before inserting new ones
                 clearSuggestions(input.nextElementSibling)
                 usersToSuggest.forEach((user) => {
-                    p = document.createElement('P')
+                    const p = document.createElement('P')
                     p.setAttribute('id', `user_${user.id}`)
                     p.setAttribute('class', 'user_item')
                     p.innerText = `${user.first_name} ${user.last_name}`
